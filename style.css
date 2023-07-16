@@ -1,0 +1,192 @@
+.entire1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.introimg {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul.para {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    list-style-type: disc;
+}
+
+#head {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #333;
+}
+
+.input1 {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.entire2 {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.butdiv{
+    margin-top: 20px;
+}
+
+#custom,
+#submit {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+#output {
+    font-size: 18px;
+    min-height: 27px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.div div {
+    width: 45%;
+}
+
+.div2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+
+.mandatory{
+    color: rgb(203, 0, 0);
+}
+
+.hide{
+    display: none;
+}
+
+#hide2{
+    display: none;
+}
+
+table
+{
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
+    .entire1 {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    ul.para {
+        font-size: 14px;
+    }
+
+    .input1 {
+        width: 100%;
+    }
+  
+}
+  
+@media (max-width: 576px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    ul.para {
+        font-size: 14px;
+    }
+
+    #output {
+      font-size: 16px;
+    }
+  
+    .footer {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .div {
+      flex-direction: column;
+    }
+  
+    .div div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+}
+
+
+  
